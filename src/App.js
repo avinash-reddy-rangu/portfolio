@@ -38,8 +38,8 @@ function App() {
       {/* DOCUMENTS */}
       <h2>Documents</h2>
       <ul>
-        <li><a href="#">Download CV</a></li>
-        <li><a href="#">Statement of Purpose</a></li>
+        <li><a href="/cv.pdf" target="_blank" rel="noopener noreferrer">Download CV</a></li>
+        <li><a href="/sop.pdf" target="_blank" rel="noopener noreferrer">Statement of Purpose</a></li>
       </ul>
 
       {/* CONTACT */}
