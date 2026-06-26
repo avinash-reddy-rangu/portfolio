@@ -36,6 +36,8 @@ const clinicalRoles = [
     points: [
         "Managing ENT outpatient consultations and follow-up care",
         "Evaluating ear, nose, throat, sinus, allergy, voice, tonsil, adenoid, and thyroid-related complaints",
+        "Performed solo ENT procedures including septoplasty, myringotomy, minimal FESS and intratympanic steroid injections.",
+        "Assisted coblation adenotonsillectomy and managed epistaxis with structured peri-operative counselling.",
         "Performing diagnostic ENT procedures including nasal endoscopy, video laryngoscopy, and ear microsuction",
         "Handling emergency ENT presentations and post-operative care",
         "Supporting surgical planning and patient counselling",
@@ -49,6 +51,8 @@ const clinicalRoles = [
       "Teaching undergraduate medical students in ENT",
       "Mentoring clinical and surgical training",
       "Academic activities, case discussions, and research work",
+      "Performed solo/basic ENT procedures including myringotomy, septoplasty, minimal FESS and ITS injections.",
+      "Assisted coblation adenotonsillectomy and managed epistaxis cases with surgical planning.",
     ],
   },
   {
@@ -58,7 +62,7 @@ const clinicalRoles = [
     points: [
       "Managed high-volume ENT OPD with 50–75 patients daily",
       "Independently performed basic ENT surgeries",
-      "Assisted in 70+ ENT surgeries including FESS, tympanoplasty, septoplasty, tonsillectomy, adenoidectomy, and thyroidectomy",
+      "Assisted in 100+ ENT surgeries including FESS, tympanoplasty, septoplasty, tonsillectomy, adenoidectomy, and thyroidectomy",
     ],
   },
   {
@@ -83,8 +87,11 @@ const skills = [
       "Tonsillectomy",
       "Adenoidectomy",
       "Thyroidectomy",
-      "Rhinoplasty exposure",
-      "Parotidectomy exposure",
+      "Rhinoplasty",
+      "Parotidectomy",
+      "Mastoidectomy",
+      "Tracheostomy",
+      "Myringotomy"
     ],
   },
   {
@@ -258,7 +265,7 @@ function App() {
       <section className="px-5 py-16 sm:px-8">
         <div className="mx-auto grid max-w-7xl gap-5 md:grid-cols-4">
           <StatCard value="70+" label="Oncology Surgeries" sub="Assisted across tertiary cancer centres" />
-          <StatCard value="70+" label="ENT Surgeries" sub="Assisted as Senior Resident" />
+          <StatCard value="100+" label="ENT Surgeries" sub="Assisted as Senior Resident" />
           <StatCard value="50–75" label="Daily OPD Load" sub="High-volume clinical management" />
         </div>
       </section>
