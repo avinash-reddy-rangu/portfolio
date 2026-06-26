@@ -263,29 +263,6 @@ function App() {
         </div>
       </section>
 
-      <section id="oncology" className="px-5 py-20 sm:px-8">
-        <SectionHeader eyebrow="Oncology Focus" title="Cancer-centre exposure with surgical discipline">
-          Experience in head and neck oncologic surgery, with exposure to neck dissections,
-          tumor resections, and multidisciplinary tumor-board discussions.
-        </SectionHeader>
-
-        <div className="mx-auto grid max-w-7xl gap-6 lg:grid-cols-3">
-          {oncologyExperience.map((item, index) => (
-            <article key={item.place} className="feature-card reveal" style={{ transitionDelay: `${index * 100}ms` }}>
-              <div className="flex items-start justify-between gap-4">
-                <div>
-                  <p className="text-sm font-semibold uppercase tracking-[0.22em] text-cyan-300">{item.period}</p>
-                  <h3 className="mt-4 text-2xl font-black text-white">{item.place}</h3>
-                </div>
-                <div className="metric-badge">{item.metric}</div>
-              </div>
-              <h4 className="mt-6 text-lg font-bold text-blue-50">{item.title}</h4>
-              <p className="mt-3 leading-7 text-blue-100/75">{item.details}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-
       <section id="experience" className="px-5 py-20 sm:px-8">
         <SectionHeader eyebrow="Clinical Journey" title="A clinician, teacher, and surgical learner">
           Built through MS ENT training, senior residency, consultant duties, academic teaching,
@@ -317,6 +294,29 @@ function App() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section id="oncology" className="px-5 py-20 sm:px-8">
+        <SectionHeader eyebrow="Oncology Experience" title="Cancer-centre exposure with surgical discipline">
+          Experience in head and neck oncologic surgery, with exposure to neck dissections,
+          tumor resections, and multidisciplinary tumor-board discussions.
+        </SectionHeader>
+
+        <div className="mx-auto grid max-w-7xl gap-6 lg:grid-cols-3">
+          {oncologyExperience.map((item, index) => (
+            <article key={item.place} className="feature-card reveal" style={{ transitionDelay: `${index * 100}ms` }}>
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <p className="text-sm font-semibold uppercase tracking-[0.22em] text-cyan-300">{item.period}</p>
+                  <h3 className="mt-4 text-2xl font-black text-white">{item.place}</h3>
+                </div>
+                <div className="metric-badge">{item.metric}</div>
+              </div>
+              <h4 className="mt-6 text-lg font-bold text-blue-50">{item.title}</h4>
+              <p className="mt-3 leading-7 text-blue-100/75">{item.details}</p>
+            </article>
+          ))}
         </div>
       </section>
 
