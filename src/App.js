@@ -30,9 +30,21 @@ const oncologyExperience = [
 
 const clinicalRoles = [
   {
+    role: "Consultant – MS ENT",
+    institution: "Medicover Hospitals, Hitech City",
+    period: "April 2026 – Present",
+    points: [
+        "Managing ENT outpatient consultations and follow-up care",
+        "Evaluating ear, nose, throat, sinus, allergy, voice, tonsil, adenoid, and thyroid-related complaints",
+        "Performing diagnostic ENT procedures including nasal endoscopy, video laryngoscopy, and ear microsuction",
+        "Handling emergency ENT presentations and post-operative care",
+        "Supporting surgical planning and patient counselling",
+    ],
+  },
+  {
     role: "Assistant Professor – ENT",
     institution: "MNR Medical College & Hospital, Sangareddy",
-    period: "Oct 2024 – Present",
+    period: "Oct 2024 – March 2026",
     points: [
       "Teaching undergraduate medical students in ENT",
       "Mentoring clinical and surgical training",
@@ -73,17 +85,6 @@ const skills = [
       "Thyroidectomy",
       "Rhinoplasty exposure",
       "Parotidectomy exposure",
-    ],
-  },
-  {
-    group: "Head & Neck Oncology",
-    items: [
-      "Neck dissection exposure",
-      "Tumor resection exposure",
-      "Oncologic case assistance",
-      "Multidisciplinary tumor-board exposure",
-      "Cancer centre workflows",
-      "Peri-operative oncology care",
     ],
   },
   {
@@ -217,7 +218,7 @@ function App() {
               ))}
             </div>
             <h1 className="max-w-5xl text-5xl font-black leading-tight tracking-tight text-white sm:text-7xl lg:text-8xl">
-              Precision ENT care with a focus on <span className="text-neon">Head & Neck Oncology.</span>
+              Precision ENT care with a focus on <span className="text-neon">complete ENT wellness</span>
             </h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-blue-100/85 sm:text-xl">
               Dr. Y Sai Vaishnavi is an Assistant Professor in ENT with structured clinical training,
@@ -233,7 +234,7 @@ function App() {
               </a>
             </div>
             <p className="mt-6 text-sm text-blue-100/70">
-              ENT Surgeon • Head & Neck Oncology Interest • Academic Teaching • Clinical Research
+              ENT Surgeon • Academic Teaching • Clinical Research
             </p>
           </div>
 
@@ -259,13 +260,12 @@ function App() {
           <StatCard value="70+" label="Oncology Surgeries" sub="Assisted across tertiary cancer centres" />
           <StatCard value="70+" label="ENT Surgeries" sub="Assisted as Senior Resident" />
           <StatCard value="50–75" label="Daily OPD Load" sub="High-volume clinical management" />
-          <StatCard value="2026" label="FHNO Focus" sub="Head & Neck Oncology career pathway" />
         </div>
       </section>
 
       <section id="oncology" className="px-5 py-20 sm:px-8">
         <SectionHeader eyebrow="Oncology Focus" title="Cancer-centre exposure with surgical discipline">
-          Focused interest in head and neck oncologic surgery, with exposure to neck dissections,
+          Experience in head and neck oncologic surgery, with exposure to neck dissections,
           tumor resections, and multidisciplinary tumor-board discussions.
         </SectionHeader>
 
@@ -382,7 +382,7 @@ function App() {
               <span className="eyebrow">Contact</span>
               <h2 className="mt-5 text-3xl font-black text-white sm:text-5xl">Connect for academic, clinical, or oncology training opportunities.</h2>
               <p className="mt-5 max-w-3xl text-lg leading-8 text-blue-100/78">
-                Assistant Professor in ENT with interest in Head & Neck Oncology, surgical skill advancement,
+                Assistant Professor in ENT with interest in surgical skill advancement,
                 clinical research, and academic mentorship.
               </p>
             </div>
@@ -397,7 +397,7 @@ function App() {
       </section>
 
       <footer className="border-t border-cyan-300/20 px-5 py-8 text-center text-sm text-blue-100/60">
-        © 2026 Dr. Y Sai Vaishnavi • MS ENT • Head & Neck Oncology Interest
+        © 2026 Dr. Y Sai Vaishnavi • MS ENT •
       </footer>
     </div>
   );
