@@ -221,9 +221,9 @@ function App() {
               Precision ENT care with a focus on <span className="text-neon">complete ENT wellness</span>
             </h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-blue-100/85 sm:text-xl">
-              Dr. Y Sai Vaishnavi is an Assistant Professor in ENT with structured clinical training,
-              high-volume outpatient experience, academic teaching exposure, and focused cancer-centre
-              training across Tata Memorial Hospital, Omega Cancer Hospital, and MNJ Government Cancer Hospital.
+              Dr. Y Sai Vaishnavi is a Consultant – MS ENT at Medicover Hospitals, Hitech City, with structured clinical training,
+              high-volume outpatient experience, diagnostic ENT procedure exposure, emergency ENT care experience, academic teaching,
+              and surgical ENT experience across reputed hospital settings.
             </p>
             <div className="mt-9 flex flex-col gap-4 sm:flex-row">
               <a href="#oncology" className="neon-button justify-center">
@@ -288,8 +288,8 @@ function App() {
 
       <section id="experience" className="px-5 py-20 sm:px-8">
         <SectionHeader eyebrow="Clinical Journey" title="A clinician, teacher, and surgical learner">
-          Built through MS ENT training, senior residency, consultant duties, assistant professorship,
-          and structured oncology exposure.
+          Built through MS ENT training, senior residency, consultant duties, academic teaching,
+          high-volume OPD care, emergency ENT care, and surgical ENT exposure.
         </SectionHeader>
 
         <div className="mx-auto max-w-5xl">
@@ -321,8 +321,8 @@ function App() {
       </section>
 
       <section id="skills" className="px-5 py-20 sm:px-8">
-        <SectionHeader eyebrow="Skillset" title="Complete MS ENT profile with oncology direction">
-          Surgical, diagnostic, academic, emergency-care, and multidisciplinary capabilities relevant to a modern ENT surgeon.
+        <SectionHeader eyebrow="Skillset" title="Complete MS ENT clinical and surgical profile">
+          Surgical, diagnostic, academic, emergency-care, OPD, patient counselling, and clinical decision-making capabilities relevant to a modern ENT surgeon.
         </SectionHeader>
         <div className="mx-auto grid max-w-7xl gap-6 lg:grid-cols-2">
           {skills.map((skill, index) => (
@@ -380,10 +380,10 @@ function App() {
           <div className="grid gap-8 lg:grid-cols-[1fr_0.8fr] lg:items-center">
             <div className="reveal">
               <span className="eyebrow">Contact</span>
-              <h2 className="mt-5 text-3xl font-black text-white sm:text-5xl">Connect for academic, clinical, or oncology training opportunities.</h2>
+              <h2 className="mt-5 text-3xl font-black text-white sm:text-5xl">Connect for ENT consultation, academic collaboration, clinical opportunities, or professional enquiries.</h2>
               <p className="mt-5 max-w-3xl text-lg leading-8 text-blue-100/78">
-                Assistant Professor in ENT with interest in surgical skill advancement,
-                clinical research, and academic mentorship.
+                Consultant – MS ENT with experience in clinical ENT practice, diagnostic procedures,
+                emergency ENT care, surgical assistance, academic teaching, and clinical research.
               </p>
             </div>
             <div className="reveal grid gap-4">
@@ -397,7 +397,7 @@ function App() {
       </section>
 
       <footer className="border-t border-cyan-300/20 px-5 py-8 text-center text-sm text-blue-100/60">
-        © 2026 Dr. Y Sai Vaishnavi • MS ENT •
+        © 2026 Dr. Y Sai Vaishnavi • Consultant – MS ENT • ENT Surgeon
       </footer>
     </div>
   );
